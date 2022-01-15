@@ -7,6 +7,9 @@ Project configurations and versions
 - Java 11
 - Spring version 2.6.2
 
+## Project base
+- Available in: https://github.com/lhlleonardo/Spring-boot-forum 
+
 ## Dependencies
 
 - Spring Boot Starter Web
@@ -18,6 +21,6 @@ Project configurations and versions
 
 ## Contents
 
-- Available in: https://cursos.alura.com.br/course/spring-boot-api-rest
+- Available in: https://cursos.alura.com.br/course/spring-boot-seguranca-cache-monitoramento
 - Instructor: Rodrigo Ferreira
 - Reproduced by: Leonardo Henrique Lopes
