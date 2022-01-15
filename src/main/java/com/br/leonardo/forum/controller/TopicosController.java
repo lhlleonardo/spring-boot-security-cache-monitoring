@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
@@ -34,9 +35,10 @@ public class TopicosController {
     @GetMapping
     public Page<TopicoDto> listar(@RequestParam(required = false) String nomeCurso,
                                   @RequestParam int pagina,
-                                  @RequestParam int quantidade) {
+                                  @RequestParam int quantidade,
+                                  @RequestParam String ordem) {
 
-        Pageable pageable = PageRequest.of(pagina, quantidade);
+        Pageable pageable = PageRequest.of(pagina, quantidade, Sort.Direction.ASC, ordem);
 
         if (nomeCurso == null) {
 
