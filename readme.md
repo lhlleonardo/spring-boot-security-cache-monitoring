@@ -19,6 +19,7 @@ Project configurations and versions
 - H2 Database Engine
 - Spring Boot Starter Validation
 - Spring Boot Starter Cache
+- Spring Boot Starter Security
 
 ## Contents
 
