@@ -18,6 +18,7 @@ Project configurations and versions
 - Spring Boot Starter Data JPA
 - H2 Database Engine
 - Spring Boot Starter Validation
+- Spring Boot Starter Cache
 
 ## Contents
 
