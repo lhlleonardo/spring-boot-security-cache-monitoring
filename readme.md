@@ -20,6 +20,7 @@ Project configurations and versions
 - Spring Boot Starter Validation
 - Spring Boot Starter Cache
 - Spring Boot Starter Security
+- JSON Web Token Support For The JVM
 
 ## Contents
 
