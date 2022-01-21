@@ -21,6 +21,7 @@ Project configurations and versions
 - Spring Boot Starter Cache
 - Spring Boot Starter Security
 - JSON Web Token Support For The JVM
+- Spring Boot Starter Actuator
 
 ## Contents
 
