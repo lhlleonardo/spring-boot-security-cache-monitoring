@@ -22,6 +22,7 @@ Project configurations and versions
 - Spring Boot Starter Security
 - JSON Web Token Support For The JVM
 - Spring Boot Starter Actuator
+- Spring Boot Admin Client Starter
 
 ## Contents
 
